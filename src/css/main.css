@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  background: #2a3439;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.3rem;
+  color: #fff;
+}
+
+p,
+li,
+button,
+input {
+  font-size: 1.6rem;
+}
+
+input {
+  background: none;
+  color: #fff;
+  width: 100%;
+  padding: 1.2rem 0.5rem;
+  box-sizing: border-box;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 2.4rem;
+}
+
+li {
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #000;
+  padding: 2.4rem 2.3rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.submit {
+  background: none;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  padding: 1.2rem 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.delete {
+  border: none;
+  background: none;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 35%;
+  }
+}
